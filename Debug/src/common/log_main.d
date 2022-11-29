@@ -2,9 +2,9 @@ src/common/log_main.o: ../src/common/log_main.cpp \
  ../src/common/log_main.h ../src/common/com_include.h \
  ../src/common/lib_time.h ../src/common/share_type.h \
  ../src/common/lib_io.h ../src/common/tools.h ../src/common/log.h \
- /home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/include/program.h \
- /home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/common/share_type.h \
- /home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/common/lib_time.h
+ /home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/include/program.h \
+ /home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/common/share_type.h \
+ /home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/common/lib_time.h
 
 ../src/common/log_main.h:
 
@@ -20,8 +20,8 @@ src/common/log_main.o: ../src/common/log_main.cpp \
 
 ../src/common/log.h:
 
-/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/include/program.h:
+/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/include/program.h:
 
-/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/common/share_type.h:
+/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/common/share_type.h:
 
-/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/common/lib_time.h:
+/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/common/lib_time.h:

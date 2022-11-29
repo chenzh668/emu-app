@@ -47,7 +47,7 @@ all: emu-app
 emu-app: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	arm-linux-gnueabihf-g++ -L"/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/lib" -L/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/lib -o "emu-app" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-linux-gnueabihf-g++ -L"/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/lib" -L/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/lib -o "emu-app" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
