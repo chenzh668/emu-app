@@ -17,7 +17,7 @@ CPP_DEPS += \
 src/common/%.o: ../src/common/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross G++ Compiler'
-	arm-linux-gnueabihf-g++ -I"/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/common" -I"/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/config_firm" -I"/home/cz/STM32CubeIDE/workspace_1.6.0/workspace1/emu-app/src/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	arm-linux-gnueabihf-g++ -I"/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/common" -I"/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/config_firm" -I"/home/cz/STM32CubeIDE/workspace_1.6.0/wpEmu/emu-app/src/include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
